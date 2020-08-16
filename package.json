@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "generate": "NODE_ENV=production postcss src/tailwind.css -o ../public/assets/hr-dashboard/css/hr-login.css"
+    "generate": "postcss src/tailwind.css -o ../public/assets/hr-dashboard/css/hr-login.css"
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",
