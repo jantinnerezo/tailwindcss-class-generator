@@ -1,0 +1,19 @@
+{
+  "name": "tailwindcss-class-generator",
+  "version": "1.0.0",
+  "description": "A legacy code friendly simple TailwindCSS CSS classes generator",
+  "main": "src/index.js",
+  "author": "Jantinn Erezo",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "generate": "NODE_ENV=production postcss src/tailwind.css -o ../public/assets/hr-dashboard/css/hr-login.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "cross-env": "^7.0.2",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.6.2"
+  }
+}
